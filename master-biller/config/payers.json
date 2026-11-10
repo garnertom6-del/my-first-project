@@ -1,0 +1,22 @@
+{
+  "_read_me": "One entry per payer. 'aliases' are the words used to recognise the payer in folder names and in 835 files. CHECK timely_filing_days and submit_days against each contract - they are starting values, not facts.",
+  "payers": [
+    {"name": "Trillium Health Resources", "aliases": ["trillium"], "type": "Tailored Plan (LME/MCO)",
+     "portal": "Provider Direct (ncinno.org)", "submit_through": "", "timely_filing_days": 365,
+     "submit_days": ["Mon", "Tue", "Wed"], "notes": "Wednesday is the claim cutoff."},
+    {"name": "Alliance Health", "aliases": ["alliance"], "type": "Tailored Plan (LME/MCO)",
+     "portal": "", "submit_through": "", "timely_filing_days": 365, "submit_days": [], "notes": ""},
+    {"name": "Vaya Health", "aliases": ["vaya"], "type": "Tailored Plan (LME/MCO)",
+     "portal": "", "submit_through": "", "timely_filing_days": 365, "submit_days": [], "notes": ""},
+    {"name": "Partners Health Management", "aliases": ["partners"], "type": "Tailored Plan (LME/MCO)",
+     "portal": "", "submit_through": "", "timely_filing_days": 365, "submit_days": [], "notes": ""},
+    {"name": "Carolina Complete Health", "aliases": ["carolina complete", "cch", "carolinacomplete"], "type": "Standard Plan",
+     "portal": "", "submit_through": "", "timely_filing_days": 365, "submit_days": [], "notes": ""},
+    {"name": "Healthy Blue", "aliases": ["healthy blue", "healthyblue", "blue cross nc medicaid"], "type": "Standard Plan",
+     "portal": "", "submit_through": "", "timely_filing_days": 365, "submit_days": [], "notes": ""}
+  ],
+  "billing_systems": {
+    "_read_me": "Folder names that hold what YOU sent out of your EHR (not payer responses).",
+    "names": ["notenetic", "sharenote", "billed", "submitted", "itransact"]
+  }
+}

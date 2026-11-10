@@ -1,0 +1,25 @@
+{
+  "_read_me": "For CSV / Excel files. Each field lists the column headers it may be called (capitals, spaces and underscores are ignored). If a portal uses a different header, just add it to the list.",
+  "fields": {
+    "client_first":   ["First_name", "FirstName", "Client First Name", "Patient First Name", "Member First Name"],
+    "client_last":    ["Last_name", "LastName", "Client Last Name", "Patient Last Name", "Member Last Name"],
+    "client_name":    ["Client", "Client Name", "Patient", "Patient Name", "Member Name", "Consumer Name"],
+    "client_id":      ["CI_Client_Id", "Client ID", "Client Id", "Record #", "MRN", "Consumer ID"],
+    "member_id":      ["Medicaid ID", "Member ID", "Medicaid #", "Subscriber ID", "Recipient ID"],
+    "dos":            ["claim_dt", "DOS", "Date of Service", "Service Date", "From Date", "Date"],
+    "processed_date": ["processed_dt", "Processed Date", "Paid Date", "Adjudication Date", "Check Date", "Remit Date"],
+    "billed_date":    ["Billed Date", "Submitted Date", "Claim Date", "Batch Date", "Sent Date"],
+    "svc_code":       ["srvc_code", "Service Code", "Procedure Code", "CPT/HCPCS", "HCPCS", "CPT", "Code"],
+    "modifiers":      ["Modifiers", "Modifier", "Mod"],
+    "units":          ["Units", "Unit", "Qty"],
+    "charge":         ["claim_amt", "Charge", "Billed Amount", "Billed", "Charge Amount", "Amount Billed", "Amount"],
+    "approved":       ["claim_approved_amt", "Approved", "Approved Amount", "Allowed", "Allowed Amount"],
+    "paid":           ["paid_amt", "Paid", "Paid Amount", "Payment", "Amount Paid"],
+    "status":         ["status", "Claim Status", "Status"],
+    "reason":         ["reason", "Denial Reason", "Reason", "Description", "Remark"],
+    "claim_no":       ["CI_Claim_Num", "Claim Number", "Claim #", "ICN", "DCN", "Claim ID"],
+    "payer":          ["Payer", "Payer Name", "Insurance", "Plan", "Funding Source"],
+    "provider":       ["Provider", "Agency", "Billing Provider", "Provider Name"],
+    "rendering":      ["Rendering Provider", "Staff", "Clinician", "Staff Name"]
+  }
+}

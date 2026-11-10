@@ -1,0 +1,7 @@
+# NEVER upload client information (PHI) to GitHub.
+inbox/*
+!inbox/README.txt
+output/
+samples/
+__pycache__/
+*.pyc
